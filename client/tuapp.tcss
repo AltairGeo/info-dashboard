@@ -1,0 +1,42 @@
+Addserver {
+    content-align: center middle;
+    dock: right;
+    padding: 1;
+}
+
+
+
+#servers {
+    padding: 1;
+}
+
+
+
+
+#aserv-container {
+    align: center bottom;
+    padding: 1;
+
+
+}
+
+#servers {
+    layout: grid;
+    grid-size: 3 4;
+    grid-rows: 1fr;
+    grid-columns: 1fr;
+    grid-gutter: 1;
+}
+ServerWidg{
+    align: center middle;
+    border: ascii $accent;
+    min-height: 5;
+}
+
+#enter {
+    dock: right;
+    min-height: 3;
+}
+
+
+

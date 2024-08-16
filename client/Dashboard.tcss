@@ -1,0 +1,72 @@
+#Base {
+        grid-size: 12 12;
+}
+
+
+#Center {
+    layout: horizontal;
+}
+
+#OS {
+    row-span: 12;
+    column-span: 4;
+    content-align: center middle;
+    align: center middle;
+}
+
+
+
+#rambar > .bar--complete {
+    color: $error;
+}
+
+
+
+#cpubar > .bar--complete {
+    color: $error;
+}
+
+#os_icon {
+    align: center middle;
+    content-align: center middle;
+}
+
+
+
+
+#CPU {
+    row-span: 6;
+    column-span: 4;   
+    padding: 1;
+}
+
+
+
+#DRIVE {
+    row-span: 8;
+    column-span: 8;   
+    padding: 1;
+}
+
+#RAM {
+    row-span: 6;
+    column-span: 5;
+    padding: 1;
+
+}
+
+
+.grid-windows {
+    border: solid blue;
+}
+.grid-bsd {
+    border: solid red;
+}
+.grid-linux {
+    border: solid green;
+}
+
+
+#gap {
+    height: 1;
+}
