@@ -22,7 +22,7 @@ For linux:
 ```
 wget https://github.com/AltairGeo/info-dashboard/releases/download/Server_and_client/dashtui-server-linux
 
-#Changing launch rights on the server
+#Changing launch rights for the server
 chmod +x dashtui-server-linux
 
 #Start server
@@ -40,5 +40,26 @@ chmod +x dashtui-server-linux
 }
 ```
 
+For freeBSD:
+```
+wget https://github.com/AltairGeo/info-dashboard/releases/download/Server_and_client/dashtui-server-freebsd
 
+#Changing launch rights for the server
+chmod +x dashtui-server-freebsd
 
+#Start server
+./dashtui-server-freebsd
+
+#And server started!
+#But we also need to create a config, otherwise we will have a standard password and port.
+
+#Paste in $HOME/.config/dashserver.json this:
+
+{
+    ip: "",
+    port: 1419,
+    password: "your password here"
+}
+```
+
+For Windows just download dash server.exe from releases and start him.
