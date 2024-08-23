@@ -89,3 +89,5 @@ cp dashtui-bsd-client /usr/bin # for bsd
 cp dashtui-linux-client /usr/bin # for linux
 ~~~
 
+
+There is no working binary file for windows. But you can run the client for windows as a .py file instead of an .exe file. You can install dependencies using the pip -r requirements.txt command.
