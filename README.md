@@ -13,9 +13,9 @@ The application has servers in binary format for Windows, Linux and FreeBSD. The
 [4]: https://github.com/AltairGeo/info-dashboard/blob/main/screenshots/menu.png "Menu"
 [3]: https://github.com/AltairGeo/info-dashboard/blob/main/screenshots/windows.png "Windows"
 
-## Instruction
+# Instruction
 
-# Server
+## Server
 
 
 For linux:
