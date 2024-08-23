@@ -63,3 +63,29 @@ chmod +x dashtui-server-freebsd
 ```
 
 For Windows just download dash server.exe from releases and start him.
+
+
+## Client
+
+For linux & FreeBSD
+~~~
+#Firtsly get the client binary
+
+#For linux
+wget https://github.com/AltairGeo/info-dashboard/releases/download/Server_and_client/dashtui-linux-client
+
+#For freebsd
+wget https://github.com/AltairGeo/info-dashboard/releases/download/Server_and_client/dashtui-bsd-client
+
+#Change run permissons
+chmod +x dashtui-bsd-client #For bsd
+#OR
+chmod +x dashtui-linux-client #For linux
+
+
+#Copy to /usr/bin
+
+cp dashtui-bsd-client /usr/bin # for bsd
+cp dashtui-linux-client /usr/bin # for linux
+~~~
+
